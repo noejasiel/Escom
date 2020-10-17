@@ -1,0 +1,19 @@
+/* body {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+} */
+
+.results {
+  /* display: flex;
+    felx-direction: row; */
+  margin: 1rem;
+}
+
+#alfa {
+  width: 10rem;
+  margin: 1rem 0;
+}
+span {
+  margin: 0.5em 0;
+}
