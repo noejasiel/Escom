@@ -1,0 +1,6 @@
+MESSAGE "File: E:\FDD\Práctica 10\vhd\jkt.vhd" 
+MESSAGE "Compile Entity "ff_rsd"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "ff_rsd"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   ff_rsd" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

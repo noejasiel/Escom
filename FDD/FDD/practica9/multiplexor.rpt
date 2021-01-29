@@ -1,0 +1,290 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  multiplexor.vhd
+Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b multiplexor.vhd -u mul.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Fri Oct 18 17:30:30 2019
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\ARCHIV~1\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work'
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Fri Oct 18 17:30:31 2019
+
+Linking 'C:\ARCHIV~1\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+tovif:  multiplexor.vhd:  Warning: (W465) Top-level entity 'multi' has no output ports.
+
+tovif:  No errors.  1 warning.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Fri Oct 18 17:30:31 2019
+
+Linking 'C:\ARCHIV~1\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 0 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+Created 13 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (17:30:32)
+
+Input File(s): multiplexor.pla
+Device       : C22V10
+Package      : palce22v10-15pc
+ReportFile   : multiplexor.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (17:30:32)
+
+Messages:
+  Information: Optimizing logic using best output polarity for signals:
+         salida(0) salida(1) salida(2) salida(3) salida(4) salida(5) salida(6)
+
+  Information: Selected logic optimization OFF for signals:
+         sel(0) sel(1)
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (17:30:32)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (17:30:32)
+</CYPRESSTAG>
+
+    salida(0) =
+          b(0) * sel(0) * /sel(1) 
+        + a(1) * /sel(0) * /sel(1) 
+        + salida(0) * sel(1) 
+
+    salida(1) =
+          /b(1) * sel(0) * /sel(1) 
+        + salida(1) * sel(1) 
+
+    salida(2) =
+          a(0) * /a(1) * /sel(0) * /sel(1) 
+        + /b(1) * sel(0) * /sel(1) 
+        + salida(2) * sel(1) 
+
+    salida(3) =
+          b(0) * sel(0) * /sel(1) 
+        + b(1) * sel(0) * /sel(1) 
+        + salida(3) * sel(1) 
+
+    salida(4) =
+          /b(0) * b(1) * sel(0) * /sel(1) 
+        + /a(0) * /sel(0) * /sel(1) 
+        + salida(4) * sel(1) 
+
+    salida(5) =
+          /a(0) * /sel(0) * /sel(1) 
+        + /a(1) * /sel(0) * /sel(1) 
+        + salida(5) * sel(1) 
+
+    salida(6) =
+          b(0) * /b(1) * sel(0) * /sel(1) 
+        + salida(6) * sel(1) 
+
+    sel(0) =
+          sel(0) 
+
+    sel(1) =
+          GND
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (17:30:32)
+
+Messages:
+                 None.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Pinout" icon=FILE_RPT_PINOUT>
+PINOUT INFORMATION   (17:30:32)
+</CYPRESSTAG>
+Messages:
+  Information: Checking for duplicate NODE logic.
+                 None.
+
+
+                                 C22V10
+                 __________________________________________
+           b(1) =| 1|                                  |24|* not used       
+           b(0) =| 2|                                  |23|= salida(4)      
+           a(1) =| 3|                                  |22|= salida(2)      
+           a(0) =| 4|                                  |21|= salida(6)      
+       not used *| 5|                                  |20|= sel(1)         
+       not used *| 6|                                  |19|* not used       
+       not used *| 7|                                  |18|= sel(0)         
+       not used *| 8|                                  |17|= salida(1)      
+       not used *| 9|                                  |16|= salida(0)      
+       not used *|10|                                  |15|= salida(3)      
+       not used *|11|                                  |14|= salida(5)      
+       not used *|12|                                  |13|* not used       
+                 __________________________________________
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Utilization" icon=FILE_RPT_UTILIZATION>
+RESOURCE UTILIZATION (17:30:32)
+</CYPRESSTAG>
+  Information: Macrocell Utilization.
+
+                     Description        Used     Max
+                 ______________________________________
+                 | Dedicated Inputs   |    3  |   11  |
+                 | Clock/Inputs       |    1  |    1  |
+                 | I/O Macrocells     |    9  |   10  |
+                 ______________________________________
+                                          13  /   22   = 59  %
+
+
+  Information: Output Logic Product Term Utilization.
+
+                  Node#  Output Signal Name  Used   Max
+                 ________________________________________
+                 | 14  |  salida(5)       |   3  |   8  |
+                 | 15  |  salida(3)       |   3  |  10  |
+                 | 16  |  salida(0)       |   3  |  12  |
+                 | 17  |  salida(1)       |   2  |  14  |
+                 | 18  |  sel(0)          |   1  |  16  |
+                 | 19  |  Unused          |   0  |  16  |
+                 | 20  |  sel(1)          |   1  |  14  |
+                 | 21  |  salida(6)       |   2  |  12  |
+                 | 22  |  salida(2)       |   3  |  10  |
+                 | 23  |  salida(4)       |   3  |   8  |
+                 | 25  |  Unused          |   0  |   1  |
+                 ________________________________________
+                                             21  / 121   = 17  %
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+JEDEC ASSEMBLE             (17:30:32)
+
+Messages:
+  Information: Output file 'multiplexor.pin' created.
+  Information: Output file 'multiplexor.jed' created.
+
+  Usercode:    
+  Checksum:    99A7
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully at 17:30:32

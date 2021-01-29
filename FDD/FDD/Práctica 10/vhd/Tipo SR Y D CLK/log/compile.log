@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\FDD\Práctica 10\vhd\Tipo SR Y D CLK.vhd
+ Compile Entity "ff_rsd"
+ Compile Architecture "DSMB" of Entity "ff_rsd"
+ Top-Level unit detected
+ Entity  =>   ff_rsd
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

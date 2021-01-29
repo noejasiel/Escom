@@ -1,0 +1,45 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  NAND.vhd
+Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -a intento1.vhd -a NAND.vhd -b NOR.vhd -u practica1intento.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Fri Nov 27 15:05:32 2020
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work'
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Fri Nov 27 15:05:33 2020
+
+Linking 'C:\Archivos de programa\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\Archivos de programa\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+tovif:  NAND.vhd:  Warning: (W377) 'and2' from 'nand.vhd' replaces that from 'intento1.vhd' in library 'work'
+tovif:  NAND.vhd:  Warning: (W377) 'and2(and2)' from 'nand.vhd' replaces that from 'intento1.vhd' in library 'work'
+Added entity 'and2' to library 'work'
+Added architecture 'and2' to library 'work'
+
+tovif:  No errors.  2 warnings.
+

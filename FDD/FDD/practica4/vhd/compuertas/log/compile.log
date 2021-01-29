@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\FDD\practica4\vhd\compuertas.vhd
+ Compile Entity "compuertas"
+ Compile Architecture "DSMB" of Entity "compuertas"
+ Top-Level unit detected
+ Entity  =>   compuertas
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]

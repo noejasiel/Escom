@@ -1,0 +1,24 @@
+Design: 02:33 a.m., Jueves, 21 de Enero de 2021
+Design: Opening design "C:\Documents and Settings\jasiel\Escritorio\Practica9Comp\vhd\Comparador4b\Comparador4b.adf"
+Compilation with file reorder...
+File: C:\Documents and Settings\jasiel\Escritorio\Practica9Comp\vhd\Comparador4b.vhd
+Compile Entity "comparadoor"
+Compile Architecture "DSMB" of Entity "comparadoor"
+Top-Level unit detected
+Entity  =>   comparadoor
+Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+02:33 a.m., Jueves, 21 de Enero de 2021
+Simulation has been initialized
+Selected Top-Level: comparadoor (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped

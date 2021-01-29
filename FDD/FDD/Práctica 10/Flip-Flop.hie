@@ -1,0 +1,4 @@
+jkt.vhd #Entity ff_kjt 4
+jkt.vhd #Architecture arq_ff_kjt ff_kjt 12
+Tipo SR Y D CLK.vhd #Entity ff_rsd 4
+Tipo SR Y D CLK.vhd #Architecture arq_ff_rsd ff_rsd 9

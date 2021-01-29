@@ -1,0 +1,6 @@
+ENTITY edeco IS
+    PORT (
+	e : in std_logic_vector (3 downto 0) ; 
+	display : inout std_logic_vector (6 downto 0)
+    ) ;
+END edeco ;

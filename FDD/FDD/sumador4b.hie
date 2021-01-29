@@ -1,0 +1,2 @@
+sumador.vhd #Entity sum 5
+sumador.vhd #Architecture a_sum sum 12

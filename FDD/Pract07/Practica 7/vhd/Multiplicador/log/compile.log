@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\jasiel\Escritorio\Practica 7\vhd\Multiplicador.vhd
+ Compile Entity "arq_multi"
+ Compile Architecture "DSMB" of Entity "arq_multi"
+ Top-Level unit detected
+ Entity  =>   arq_multi
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]

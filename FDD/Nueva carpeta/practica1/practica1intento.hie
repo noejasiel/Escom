@@ -1,0 +1,10 @@
+XNOR1.vhd #Entity and2 4
+XNOR1.vhd #Architecture and2 and2 9
+XOR.vhd #Entity and2 4
+XOR.vhd #Architecture and2 and2 9
+NOR1.vhd #Entity and2 4
+NOR1.vhd #Architecture and2 and2 9
+NAND.vhd #Entity and2 4
+NAND.vhd #Architecture and2 and2 9
+intento1.vhd #Entity and2 4
+intento1.vhd #Architecture and2 and2 9

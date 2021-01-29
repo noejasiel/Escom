@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\FDD\practica7\vhd\sumador.vhd
+ Compile Entity "suma"
+ Compile Architecture "DSMB" of Entity "suma"
+ Top-Level unit detected
+ Entity  =>   suma
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]

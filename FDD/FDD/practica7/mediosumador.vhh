@@ -1,0 +1,8 @@
+ENTITY sum IS
+    PORT (
+	x : in std_logic  ; 
+	y : in std_logic  ; 
+	s : inout std_logic  ; 
+	a : inout std_logic 
+    ) ;
+END sum ;

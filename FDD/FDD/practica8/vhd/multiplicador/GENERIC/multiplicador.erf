@@ -1,0 +1,6 @@
+MESSAGE "File: E:\FDD\practica8\vhd\multiplicador.vhd" 
+MESSAGE "Compile Entity "mult"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "mult"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   mult" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 

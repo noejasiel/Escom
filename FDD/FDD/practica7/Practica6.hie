@@ -1,0 +1,10 @@
+sumador4.vhd #Entity suma 4
+sumador4.vhd #Architecture codigo suma 12
+mediosumador.vhd #Entity sum 4
+mediosumador.vhd #Architecture codigo sum 12
+mediorestador.vhd #Entity res 4
+mediorestador.vhd #Architecture codigo res 12
+restador.vhd #Entity resta 4
+restador.vhd #Architecture codigo resta 12
+sumador.vhd #Entity suma 4
+sumador.vhd #Architecture codigo suma 12

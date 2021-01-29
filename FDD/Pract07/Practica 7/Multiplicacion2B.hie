@@ -1,0 +1,2 @@
+Multiplicador.vhd #Entity arq_multi 4
+Multiplicador.vhd #Architecture multiplicacion arq_multi 9

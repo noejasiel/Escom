@@ -1,0 +1,9 @@
+Cypress Package: palce22v10-15pc  PinOut File: jkt.pin
+
+This file was created on 11/07/2019 at 09:01:50 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [User] 
+t in <> Enabled Normal 4 <> [User] 
+q2 inout <> Enabled Normal 14 <> [User] 

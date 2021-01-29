@@ -1,0 +1,7 @@
+ENTITY arq_multi IS
+    PORT (
+	a : in std_logic_vector (1 downto 0) ; 
+	b : in std_logic_vector (1 downto 0) ; 
+	s : inout std_logic_vector (3 downto 0)
+    ) ;
+END arq_multi ;

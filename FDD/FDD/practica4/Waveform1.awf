@@ -1,0 +1,70 @@
+$WAVE
+$SIGNAL 1 a -1 0 IN 700000
+1 Stimulator="VAL:FRM:Override:1:<= 1:1:0ps"
+$SIGNAL 6 b -1 0 IN 700000
+6 Stimulator="VAL:FRM:Override:0:<= 0:1:0ps"
+$SIGNAL 7 c -1 0 IN 700000
+7 Stimulator="VAL:FRM:Override:1:<= 1:1:0ps"
+$SIGNAL 8 salida -1 0 INOUT 700000
+$BUS 9 3 sel -1 0 IN 700000
+9 Stimulator="VAL:FRM:Override:010:<= 010:1:0ps"
+$SIGNAL 10 "(2)" 9 0 IN 700000
+$SIGNAL 11 "(1)" 9 1 IN 700000
+$SIGNAL 12 "(0)" 9 2 IN 700000
+$EVENTS
+I 0 "e#9#std_logicc9 UX01ZWLH-"
+S 1 0
+S 6 0
+S 7 0
+S 8 0
+I 1 "a#28#std_logic_vector(2 downto 0)1 ricd2 0 e#9#std_logicc9 UX01ZWLH-"
+S 9 1
+S 10 0
+S 11 0
+S 12 0
+1 U
+6 U
+7 U
+8 U
+10 U
+11 U
+12 U
+D 1
+8 Z
+12 1
+11 0
+10 0
+7 1
+6 0
+1 0
+T 25000
+8 0
+T 75000
+D 1
+1 1
+T 100000
+D 1
+7 0
+T 100000
+D 1
+12 0
+10 1
+T 100000
+D 1
+12 1
+11 1
+7 1
+6 1
+T 100000
+D 1
+11 0
+6 0
+T 100000
+D 1
+12 0
+11 1
+10 0
+T 25000
+D 2
+8 1
+$ENDWAVE

@@ -1,0 +1,19 @@
+Cypress Package: palce22v10-15pc  PinOut File: sumador.pin
+
+This file was created on 10/09/2019 at 10:33:35 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+sump(3) in <> Enabled Normal 1 <> [Auto] 
+sump(2) in <> Enabled Normal 2 <> [Auto] 
+sump(1) in <> Enabled Normal 3 <> [Auto] 
+sump(0) in <> Enabled Normal 4 <> [Auto] 
+sumg(3) in <> Enabled Normal 5 <> [Auto] 
+sumg(2) in <> Enabled Normal 6 <> [Auto] 
+sumg(1) in <> Enabled Normal 7 <> [Auto] 
+sumg(0) in <> Enabled Normal 8 <> [Auto] 
+salida(1) out <> Enabled Normal 14 <> [Auto] 
+salida(3) out <> Enabled Normal 16 <> [Auto] 
+salida(0) out <> Enabled Normal 17 <> [Auto] 
+salida(4) out <> Enabled Normal 21 <> [Auto] 
+salida(2) out <> Enabled Normal 23 <> [Auto] 

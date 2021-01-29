@@ -1,0 +1,12 @@
+Cypress Package: palce22v10-15pc  PinOut File: Tipo SR Y D CLK.pin
+
+This file was created on 11/14/2019 at 14:26:43 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+clk gclk <> Enabled Normal 1 <> [Auto] 
+s in <> Enabled Normal 2 <> [Auto] 
+r in <> Enabled Normal 3 <> [Auto] 
+d in <> Enabled Normal 4 <> [Auto] 
+q1 inout <> Enabled Normal 14 <> [Auto] 
+q2 out <> Enabled Normal 23 <> [Auto] 

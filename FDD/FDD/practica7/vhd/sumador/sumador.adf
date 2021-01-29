@@ -1,0 +1,8 @@
+[Project]
+Current config=GENERIC
+VCS=0
+modified=11
+[Configurations]
+GENERIC=sumador
+[Files]
+/E:\FDD\practica7\vhd\sumador.vhd=4, 1 30767542 431693568, 0, , , ,

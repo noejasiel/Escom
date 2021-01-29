@@ -1,0 +1,9 @@
+ENTITY and2 IS
+    PORT (
+	y0 : inout std_logic  ; 
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	c : in std_logic  ; 
+	d : in std_logic 
+    ) ;
+END and2 ;

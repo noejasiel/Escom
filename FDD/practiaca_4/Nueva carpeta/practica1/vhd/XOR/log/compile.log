@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\jasiel\Escritorio\practica1\vhd\XOR.vhd
+ Compile Entity "and2"
+ Compile Architecture "DSMB" of Entity "and2"
+ Top-Level unit detected
+ Entity  =>   and2
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]

@@ -1,0 +1,36 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity multi is
+	 	Port (sel, a, b: in STD_LOGIC_Vector(1 DOWNTO 0);		
+		salida : out STD_LOGIC_Vector (6 DOWNTO 0)
+		);
+
+		end multi;
+
+		ARCHITECTURE arqm of multi IS
+		BEGIN
+
+				PROCESS (sel, a, b)
+				BEGIN
+					IF(sel = "00") THEN
+						CASE a IS
+						WHEN "00" => salida <= "0110000";
+					   	WHEN "01" => salida <= "0100100";
+						WHEN "10" => salida <= "0110001";
+						WHEN "11" => salida <= "0000001";
+						WHEN OTHERS => salida <= "-------";
+					   END CASE;
+					ELSIF(sel = "01") THEN
+					    CASE b IS
+					    WHEN "00" => salida <= "0000110";
+					    WHEN "01" => salida <= "1001111";
+						WHEN "10" => salida <= "";
+						WHEN "11" => salida <= "";
+						WHEN OTHERS => salida <= "-------";
+					   END CASE;
+					ELSE 
+						salida <= "-------";
+				   END IF;
+				  END PROCESS;
+				 END arqm;

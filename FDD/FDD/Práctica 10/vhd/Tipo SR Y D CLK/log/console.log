@@ -1,0 +1,28 @@
+Design: 02:20 p.m., Jueves, 14 de Noviembre de 2019
+Design: Opening design "E:\FDD\Práctica 10\vhd\Tipo SR Y D CLK\Tipo SR Y D CLK.adf"
+Compilation with file reorder...
+File: E:\FDD\Práctica 10\vhd\Tipo SR Y D CLK.vhd
+Compile Entity "ff_rsd"
+Compile Architecture "DSMB" of Entity "ff_rsd"
+Top-Level unit detected
+Entity  =>   ff_rsd
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+02:21 p.m., Jueves, 14 de Noviembre de 2019
+Simulation has been initialized
+Selected Top-Level: ff_rsd (DSMB)
+KERNEL: stopped at time: 100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 200 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+KERNEL: stopped at time: 300 ns
+KERNEL: stopped at time: 600 ns
+Simulation has been stopped

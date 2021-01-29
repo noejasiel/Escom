@@ -1,0 +1,16 @@
+library ieee;
+library ieee;
+use ieee.std_logic_1164.all;
+entity multiplicador is
+	port(A, B: in std_logic_vector(1 downto 0);
+		c1,c2,c3,c4: out std_logic);
+end multiplicador;
+
+architecture multiplicacion of multiplicador is
+begin
+c1 <= AA and BB;
+c2 <= ((AA and B) xor (A and BB));
+c3 <= not(AA and BB) and (A and B);
+c4 <= (AA and BB) and (A and B);
+
+end  multiplicacion;

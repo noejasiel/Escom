@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\FDD\practica5\vhd\Entidad.vhd
+ Compile Entity "edeco"
+ Compile Architecture "DSMB" of Entity "edeco"
+ Top-Level unit detected
+ Entity  =>   edeco
+ Compile success 0 Errors 0 Warnings  Analysis time :  1.0 [s]

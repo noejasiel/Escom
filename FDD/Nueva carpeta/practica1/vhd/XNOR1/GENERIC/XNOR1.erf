@@ -1,0 +1,6 @@
+MESSAGE "File: C:\Documents and Settings\jasiel\Escritorio\practica1\vhd\XNOR1.vhd" 
+MESSAGE "Compile Entity "and2"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "and2"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   and2" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]" 

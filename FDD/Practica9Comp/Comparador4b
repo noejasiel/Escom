@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity com is
+	port( e1,e2 : in std_logic_vector(3 downto 0);
+	DISPLAY : out std_logic_vector (6 downto 0)
+	);
+end com;
+
+architecture comparador of com is
+begin
+process(e1, e2)
+	begin
+	if(e1 < e2)then
+		DISPLAY <= "0110001";--caso e1 < e2 
+							--se mostrara display <
+	elsif(e1 > e2)then
+		DISPLAY <= "0000111";--caso e1 > e2 
+							 ----se mostrara display >
+	else 
+		DISPLAY <= "0110111";--caso Igualdad
+	end if;
+ end process;
+ end comparador;

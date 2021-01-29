@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: C:\Documents and Settings\jasiel\Escritorio\Practica9Comp\vhd\Comparador4b.vhd
+ Compile Entity "comparadoor"
+ Compile Architecture "DSMB" of Entity "comparadoor"
+ Top-Level unit detected
+ Entity  =>   comparadoor
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.0 [s]

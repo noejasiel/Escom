@@ -1,0 +1,40 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  Entidad.vhd
+Options:    -m -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b Entidad.vhd -u practica5.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Sun Sep 29 01:26:38 2019
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\ARCHIV~1\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work'
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Entidad.vhd (line 16, col 12):  (E0) syntax error
+Error occurred within '(' at line 16, column 7 in Entidad.vhd.
+Entidad.vhd (line 18, col 8):  (E10) Syntax error at/before reserved symbol 'elsif'.
+Entidad.vhd (line 18, col 25):  (E10) Syntax error at/before reserved symbol 'then'.
+Entidad.vhd (line 20, col 8):  (E10) Syntax error at/before reserved symbol 'elsif'.
+Entidad.vhd (line 20, col 25):  (E10) Syntax error at/before reserved symbol 'then'.
+Entidad.vhd (line 22, col 8):  (E10) Syntax error at/before reserved symbol 'elsif'.
+Entidad.vhd (line 22, col 25):  (E10) Syntax error at/before reserved symbol 'then'.
+Entidad.vhd (line 24, col 8):  (E10) Syntax error at/before reserved symbol 'elsif'.
+Entidad.vhd (line 24, col 25):  (E10) Syntax error at/before reserved symbol 'then'.
+Entidad.vhd (line 26, col 8):  (E10) Syntax error at/before reserved symbol 'elsif'.
+Entidad.vhd (line 26, col 25):  (E10) Syntax error at/before reserved symbol 'then'.
+vhdlfe:  Entidad.vhd:  Abort:  (E46) Error limit (10) exceeded

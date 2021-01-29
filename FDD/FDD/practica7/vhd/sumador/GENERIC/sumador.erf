@@ -1,0 +1,6 @@
+MESSAGE "File: E:\FDD\practica7\vhd\sumador.vhd" 
+MESSAGE "Compile Entity "suma"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "suma"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   suma" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.3 [s]" 

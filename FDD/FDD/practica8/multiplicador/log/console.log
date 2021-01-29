@@ -1,0 +1,24 @@
+Design: 02:59 a.m., Sábado, 12 de Octubre de 2019
+Design: Opening design "E:\FDD\practica8\multiplicador\multiplicador.adf"
+Compilation with file reorder...
+File: E:\FDD\practica8\multiplicador.vhd
+Compile Entity "MULT"
+Compile Architecture "codigo" of Entity "MULT"
+Top-Level unit detected
+Entity  =>   MULT
+Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+ELBREAD: Elaboration process.
+ELBREAD: Elaboration time 0.0 [s].
+KERNEL: Main thread initiated.
+KERNEL: Kernel process initialization phase.
+ELAB2: Elaboration final pass...
+ELAB2: Elaboration final pass complete - time: 0.0 [s].
+KERNEL: Kernel process initialization done.
+03:01 a.m., Sábado, 12 de Octubre de 2019
+Simulation has been initialized
+Selected Top-Level: MULT (codigo)
+KERNEL: stopped at time: 100 ns
+KERNEL: Simulation has finished. There are no more test vectors to simulate.
+Simulation has been stopped

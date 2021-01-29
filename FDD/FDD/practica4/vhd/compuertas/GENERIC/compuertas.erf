@@ -1,0 +1,6 @@
+MESSAGE "File: E:\FDD\practica4\vhd\compuertas.vhd" 
+MESSAGE "Compile Entity "compuertas"" 
+MESSAGE "Compile Architecture "DSMB" of Entity "compuertas"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   compuertas" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.4 [s]" 

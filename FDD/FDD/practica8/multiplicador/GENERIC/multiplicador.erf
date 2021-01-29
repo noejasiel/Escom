@@ -1,0 +1,6 @@
+MESSAGE "File: E:\FDD\practica8\multiplicador.vhd" 
+MESSAGE "Compile Entity "MULT"" 
+MESSAGE "Compile Architecture "codigo" of Entity "MULT"" 
+MESSAGE "Top-Level unit detected" 
+MESSAGE "Entity  =>   MULT" 
+MESSAGE "Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]" 

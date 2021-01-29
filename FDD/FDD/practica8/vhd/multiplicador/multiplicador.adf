@@ -1,0 +1,8 @@
+[Project]
+Current config=GENERIC
+VCS=0
+modified=3
+[Configurations]
+GENERIC=multiplicador
+[Files]
+/E:\FDD\practica8\vhd\multiplicador.vhd=4, 1 30769360 2821149440, 0, , , ,

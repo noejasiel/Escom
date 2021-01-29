@@ -1,0 +1,2 @@
+multiplicador.vhd #Entity mult 4
+multiplicador.vhd #Architecture codigo mult 9

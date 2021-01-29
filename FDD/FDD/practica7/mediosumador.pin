@@ -1,0 +1,10 @@
+Cypress Package: palce22v10-15pc  PinOut File: mediosumador.pin
+
+This file was created on 10/03/2019 at 01:45:31 
+by PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+==========
+y in <> Enabled Normal 1 <> [Auto] 
+x in <> Enabled Normal 2 <> [Auto] 
+s out <> Enabled Normal 14 <> [Auto] 
+a out <> Enabled Normal 23 <> [Auto] 

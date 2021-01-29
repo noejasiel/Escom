@@ -1,0 +1,7 @@
+ Compilation with file reorder...
+ File: E:\FDD\practica8\multiplicador.vhd
+ Compile Entity "MULT"
+ Compile Architecture "codigo" of Entity "MULT"
+ Top-Level unit detected
+ Entity  =>   MULT
+ Compile success 0 Errors 0 Warnings  Analysis time :  0.2 [s]

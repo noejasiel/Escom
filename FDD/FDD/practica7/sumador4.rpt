@@ -1,0 +1,266 @@
+
+     | | | | | | |
+   _________________
+  -|               |-
+  -|               |-
+  -|               |-
+  -|    CYPRESS    |-
+  -|               |-
+  -|               |-   Warp VHDL Synthesis Compiler: Version 6.3 IR 35
+  -|               |-   Copyright (C) 1991-2001 Cypress Semiconductor
+   |_______________|
+     | | | | | | |
+
+======================================================================
+Compiling:  sumador4.vhd
+Options:    -yu -e10 -w100 -o2 -ygs -fP -v10 -dc22v10 -ppalce22v10-15pc -b sumador4.vhd -u Practica6.hie
+======================================================================
+
+vhdlfe V6.3 IR 35:  VHDL parser
+Wed Oct 09 10:30:24 2019
+
+Library 'work' => directory 'lc22v10'
+Linking 'C:\ARCHIV~1\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\work\cypress.vif'.
+Library 'ieee' => directory 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work'
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\syntocyp.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\synusgnd.vif'.
+
+vhdlfe:  No errors.
+
+
+tovif V6.3 IR 35:  High-level synthesis
+Wed Oct 09 10:30:24 2019
+
+Linking 'C:\ARCHIV~1\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\syntocyp.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\synusgnd.vif'.
+
+tovif:  No errors.
+
+
+topld V6.3 IR 35:  Synthesis and optimization
+Wed Oct 09 10:30:24 2019
+
+Linking 'C:\ARCHIV~1\Cypress\Warp\bin\std.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\cypress.vhd'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\common\work\cypress.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\stdlogic.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\syntocyp.vif'.
+Linking 'C:\ARCHIV~1\Cypress\Warp\lib\ieee\work\synusgnd.vif'.
+
+----------------------------------------------------------
+Detecting unused logic.
+----------------------------------------------------------
+
+
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification
+----------------------------------------------------------
+
+----------------------------------------------------------
+Circuit simplification results:
+
+	Expanded 4 signals.
+	Turned 0 signals into soft nodes.
+	Maximum default expansion cost was set at 10.
+----------------------------------------------------------
+
+------------------------------------------------------
+Alias Detection
+------------------------------------------------------
+
+------------------------------------------------------
+Aliased 0 equations, 0 wires.
+------------------------------------------------------
+Created 16 PLD nodes.
+
+topld:  No errors.
+
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN HEADER INFORMATION  (10:30:26)
+
+Input File(s): sumador4.pla
+Device       : C22V10
+Package      : palce22v10-15pc
+ReportFile   : sumador4.rpt
+
+Program Controls:
+    COMMAND LANGUAGE_VHDL 
+    COMMAND PROPERTY BUS_HOLD ENABLE 
+
+Signal Requests:
+    GROUP USEPOL ALL
+    GROUP FAST_SLEW ALL
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (10:30:26)
+
+Messages:
+  Information: Optimizing logic using best output polarity for signals:
+         c2 c3 s1 s2 s3 s4
+
+  Information: Selected logic optimization OFF for signals:
+         c0 c1
+
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Optimizer Software:       MINOPT.EXE     01/NOV/1999  [v4.02 ] 6.3 IR 35
+
+LOGIC MINIMIZATION         ()
+
+Messages:
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully
+----------------------------------------------------------------------------
+PLD Optimizer Software:       DSGNOPT.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+OPTIMIZATION OPTIONS       (10:30:26)
+
+Messages:
+  Information: Optimizing Banked Preset/Reset requirements.
+
+
+Summary:
+                 Error Count = 0      Warning Count = 0
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+<CYPRESSTAG name="Equations" icon=FILE_RPT_EQUATION>
+DESIGN EQUATIONS           (10:30:26)
+</CYPRESSTAG>
+
+    c0 =
+          GND
+
+    c1 =
+          a1 * b1 
+
+    c2 =
+          a1 * b1 * b2 
+        + a1 * a2 * b1 
+        + a2 * b2 
+
+    c3 =
+          a1 * b1 * b2 * b3 
+        + a1 * a3 * b1 * b2 
+        + a1 * a2 * b1 * b3 
+        + a1 * a2 * a3 * b1 
+        + a2 * b2 * b3 
+        + a2 * a3 * b2 
+        + a3 * b3 
+
+    s1 =
+          /a1 * b1 
+        + a1 * /b1 
+
+    s2 =
+          a1 * a2 * b1 * b2 
+        + a1 * /a2 * b1 * /b2 
+        + /a1 * /a2 * b2 
+        + /a2 * /b1 * b2 
+        + /a1 * a2 * /b2 
+        + a2 * /b1 * /b2 
+
+    s3 =
+          a1 * a3 * b1 * b2 * b3 
+        + a1 * a2 * a3 * b1 * b3 
+        + a1 * /a3 * b1 * b2 * /b3 
+        + a1 * a2 * /a3 * b1 * /b3 
+        + a2 * a3 * b2 * b3 
+        + /a1 * /a2 * /a3 * b3 
+        + /a2 * /a3 * /b1 * b3 
+        + /a1 * /a3 * /b2 * b3 
+        + /a2 * /a3 * /b2 * b3 
+        + /a3 * /b1 * /b2 * b3 
+        + /a1 * /a2 * a3 * /b3 
+        + a2 * /a3 * b2 * /b3 
+        + /a2 * a3 * /b1 * /b3 
+        + /a1 * a3 * /b2 * /b3 
+        + /a2 * a3 * /b2 * /b3 
+        + a3 * /b1 * /b2 * /b3 
+
+    s4 =
+          a1 * a4 * b1 * b2 * b3 * b4 
+        + a1 * a3 * a4 * b1 * b2 * b4 
+        + a1 * a2 * a4 * b1 * b3 * b4 
+        + a1 * a2 * a3 * a4 * b1 * b4 
+        + a1 * /a4 * b1 * b2 * b3 * /b4 
+        + a1 * a3 * /a4 * b1 * b2 * /b4 
+        + a1 * a2 * /a4 * b1 * b3 * /b4 
+        + a1 * a2 * a3 * /a4 * b1 * /b4 
+        + a2 * a4 * b2 * b3 * b4 
+        + a2 * a3 * a4 * b2 * b4 
+        + /a1 * /a2 * /a3 * /a4 * b4 
+        + /a2 * /a3 * /a4 * /b1 * b4 
+        + /a1 * /a3 * /a4 * /b2 * b4 
+        + /a2 * /a3 * /a4 * /b2 * b4 
+        + /a3 * /a4 * /b1 * /b2 * b4 
+        + /a1 * /a2 * /a4 * /b3 * b4 
+        + /a2 * /a4 * /b1 * /b3 * b4 
+        + /a1 * /a4 * /b2 * /b3 * b4 
+        + /a2 * /a4 * /b2 * /b3 * b4 
+        + /a4 * /b1 * /b2 * /b3 * b4 
+        + /a1 * /a2 * /a3 * a4 * /b4 
+        + a2 * /a4 * b2 * b3 * /b4 
+        + a2 * a3 * /a4 * b2 * /b4 
+        + /a2 * /a3 * a4 * /b1 * /b4 
+        + /a1 * /a3 * a4 * /b2 * /b4 
+        + /a2 * /a3 * a4 * /b2 * /b4 
+        + /a3 * a4 * /b1 * /b2 * /b4 
+        + /a1 * /a2 * a4 * /b3 * /b4 
+        + /a2 * a4 * /b1 * /b3 * /b4 
+        + /a1 * a4 * /b2 * /b3 * /b4 
+        + /a2 * a4 * /b2 * /b3 * /b4 
+        + a4 * /b1 * /b2 * /b3 * /b4 
+        + a3 * a4 * b3 * b4 
+        + /a3 * /a4 * /b3 * b4 
+        + a3 * /a4 * b3 * /b4 
+        + /a3 * a4 * /b3 * /b4 
+
+
+Completed Successfully  
+----------------------------------------------------------------------------
+PLD Compiler Software:        PLA2JED.EXE    31/03/2000  [v4.02 ] 6.3 IR 35
+
+DESIGN RULE CHECK          (10:30:26)
+
+Messages:
+  Error: Logic equation has too many product terms on signal s4.
+         Found = 36  ,  Maximum = 16
+
+
+Summary:
+                 Error Count = 1      Warning Count = 0
+
+Errors Detected.

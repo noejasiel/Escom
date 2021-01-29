@@ -1,0 +1,8 @@
+ENTITY multi IS
+    PORT (
+	sel : in std_logic_vector (1 downto 0) ; 
+	b : in std_logic_vector (1 downto 0) ; 
+	a : in std_logic_vector (2 downto 0) ; 
+	salida : inout std_logic_vector (6 downto 0)
+    ) ;
+END multi ;

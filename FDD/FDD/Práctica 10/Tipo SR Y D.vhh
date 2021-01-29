@@ -1,0 +1,9 @@
+ENTITY ff_rsd IS
+    PORT (
+	r : in std_logic  ; 
+	s : in std_logic  ; 
+	d : in std_logic  ; 
+	q1 : inout std_logic  ; 
+	q2 : inout std_logic 
+    ) ;
+END ff_rsd ;

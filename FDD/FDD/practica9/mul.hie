@@ -1,0 +1,4 @@
+otro.vhd #Entity multi 4
+otro.vhd #Architecture arqm multi 12
+multiplexor.vhd #Entity multi 4
+multiplexor.vhd #Architecture arqm multi 11

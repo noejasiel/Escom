@@ -1,0 +1,9 @@
+ENTITY compuertas IS
+    PORT (
+	sel : in std_logic_vector (2 downto 0) ; 
+	a : in std_logic  ; 
+	b : in std_logic  ; 
+	c : in std_logic  ; 
+	salida : inout std_logic 
+    ) ;
+END compuertas ;
