@@ -1,6 +1,6 @@
 # Escom Archivos/Trabajos
 
-##Si te sirve el Repositorio No olvides una estrellita
+## Si te sirve el Repositorio No olvides una dejar una estrellita
 
 ## Materias
 
