@@ -1,0 +1,37 @@
+C:/Users/HP/Desktop/ESCUELA/DSD/PROY/regn.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/HP/Desktop/ESCUELA/DSD/PROY/regn.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity regn
+-- Compiling architecture Behavior of regn
+
+} {} {}} C:/Users/HP/Desktop/ESCUELA/DSD/PROY/deco2to4.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/HP/Desktop/ESCUELA/DSD/PROY/deco2to4.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dec2to4
+-- Compiling architecture Behavior of dec2to4
+
+} {} {}} C:/Users/HP/Desktop/ESCUELA/DSD/PROY/proyecto.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/HP/Desktop/ESCUELA/DSD/PROY/proyecto.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_SIGNED
+-- Compiling entity proc
+-- Compiling architecture Behavior of proc
+
+} {} {}} C:/Users/HP/Desktop/ESCUELA/DSD/PROY/contador.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none C:/Users/HP/Desktop/ESCUELA/DSD/PROY/contador.vhd
+Model Technology ModelSim SE-64 vcom 10.5 Compiler 2016.02 Feb 13 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity upcount
+-- Compiling architecture Behavior of upcount
+
+} {} {}}

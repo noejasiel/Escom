@@ -1,0 +1,184 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/modeltech64_10.5/examples
+T_opt
+!s110 1623542948
+VMmUN`FOdGiiO@m;]_i2Q61
+04 4 8 work proc behavior 1
+=1-6c626d6f9af3-60c54ca3-287-5788
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
+n@_opt
+OL;O;10.5;63
+R0
+Edec2to4
+Z1 w1623542903
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dC:/Users/HP/Desktop/ESCUELA/DSD/PROY
+Z5 8C:/Users/HP/Desktop/ESCUELA/DSD/PROY/deco2to4.vhd
+Z6 FC:/Users/HP/Desktop/ESCUELA/DSD/PROY/deco2to4.vhd
+l0
+L4
+V<SOH:PSz]hUCI5NeZW0^I0
+!s100 UQF9?[e3g=>jBj0gL@SOG1
+Z7 OL;C;10.5;63
+32
+Z8 !s110 1623887904
+!i10b 1
+Z9 !s108 1623887904.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/HP/Desktop/ESCUELA/DSD/PROY/deco2to4.vhd|
+Z11 !s107 C:/Users/HP/Desktop/ESCUELA/DSD/PROY/deco2to4.vhd|
+!i113 0
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Abehavior
+R2
+R3
+Z14 DEx4 work 7 dec2to4 0 22 <SOH:PSz]hUCI5NeZW0^I0
+l12
+L10
+Z15 V>;MT23:cagjO1mQbcIY>a0
+Z16 !s100 Oec4_VO7jP<=:KeZJTeL[1
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 0
+R12
+R13
+Eproc
+Z17 w1623443777
+Z18 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z19 DPx4 ieee 16 std_logic_signed 0 22 C<aanc0R`<LWPSe[JYRP^3
+R2
+R3
+R4
+Z20 8C:/Users/HP/Desktop/ESCUELA/DSD/PROY/proyecto.vhd
+Z21 FC:/Users/HP/Desktop/ESCUELA/DSD/PROY/proyecto.vhd
+l0
+L5
+V<AZ;o8kgRb@nbCZ3ZdG2L3
+!s100 l>ija?bOA5WDUGj0m]A^_2
+R7
+32
+Z22 !s110 1623887903
+!i10b 1
+Z23 !s108 1623887903.000000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/HP/Desktop/ESCUELA/DSD/PROY/proyecto.vhd|
+Z25 !s107 C:/Users/HP/Desktop/ESCUELA/DSD/PROY/proyecto.vhd|
+!i113 0
+R12
+R13
+Abehavior
+R18
+R19
+R2
+R3
+DEx4 work 4 proc 0 22 <AZ;o8kgRb@nbCZ3ZdG2L3
+l43
+L14
+VdLlXR0^5RO0;BgM5f0f^L0
+!s100 No:ogFNecPl6=8]Eo=Af?2
+R7
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R12
+R13
+Eregn
+Z26 w1623449837
+R2
+R3
+R4
+Z27 8C:/Users/HP/Desktop/ESCUELA/DSD/PROY/regn.vhd
+Z28 FC:/Users/HP/Desktop/ESCUELA/DSD/PROY/regn.vhd
+l0
+L4
+V<Q:Mhbk13hCj<_2@UECK_3
+!s100 1_3XPYkhMc`P1<?KE4Q4V2
+R7
+32
+R8
+!i10b 1
+R9
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/HP/Desktop/ESCUELA/DSD/PROY/regn.vhd|
+Z30 !s107 C:/Users/HP/Desktop/ESCUELA/DSD/PROY/regn.vhd|
+!i113 0
+R12
+R13
+Abehavior
+R2
+R3
+DEx4 work 4 regn 0 22 <Q:Mhbk13hCj<_2@UECK_3
+l12
+L11
+V_6^XHHSd5AnDjY^R]5=mk2
+!s100 zHdNMif5g`RJ68[G1UH9W2
+R7
+32
+R8
+!i10b 1
+R9
+R29
+R30
+!i113 0
+R12
+R13
+Eupcount
+Z31 w1623441835
+R18
+Z32 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+R4
+Z33 8C:/Users/HP/Desktop/ESCUELA/DSD/PROY/contador.vhd
+Z34 FC:/Users/HP/Desktop/ESCUELA/DSD/PROY/contador.vhd
+l0
+L5
+VH2Y50a:=SF[;`KE^YJ?zm1
+!s100 <^]ZS::2JX83T`olUQQg40
+R7
+32
+R22
+!i10b 1
+R23
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|C:/Users/HP/Desktop/ESCUELA/DSD/PROY/contador.vhd|
+Z36 !s107 C:/Users/HP/Desktop/ESCUELA/DSD/PROY/contador.vhd|
+!i113 0
+R12
+R13
+Abehavior
+R18
+R32
+R2
+R3
+DEx4 work 7 upcount 0 22 H2Y50a:=SF[;`KE^YJ?zm1
+l11
+L10
+V^OczBFKB4i1n=1zgQ<<^D3
+!s100 ]Z303z1IN_DG3oL^GJF>22
+R7
+32
+R8
+!i10b 1
+R23
+R35
+R36
+!i113 0
+R12
+R13
