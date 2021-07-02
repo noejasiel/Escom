@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="author" content="Silva Hernandez Noe Jasiel">
+    <meta name="description" content="etiquetas de formato de texto">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tipos de selectores</title>
+
+    <style>
+        hr{
+            size: 2em;
+        }
+        h3{
+            margin: none;
+        }
+        #elementos{
+            background: rgb(240, 58, 52);
+            padding: 35px;
+            border-radius: 1em;
+            width: 70%;
+            text-align: center;
+            margin: auto;
+        }
+        #elementos > *{
+            text-align: center;
+            display: block;
+            margin: auto;
+            width: 50%;
+        }
+        #selectores {
+            display: flow-root;
+            width: 40%;
+            margin: auto;
+            background-color: #6b3679;
+            padding: 30px;
+            text-align: center;
+            border-radius: 2em;
+            margin-top: 1em;
+        }
+
+        #selectores > h2{
+            background-color:none;
+            text-align: center;
+        }
+        #selectores > h3{
+            padding: 20px;
+            background-color: rgba(56, 46, 150, 0.336);
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+    <div id="elementos">
+        <p>
+        <h1>Selectores</h1>
+        
+        </p>
+        <br>
+        <img src="Cmap-0 (2).jpg">
+        <br>
+        <img src="Cmap-1.jpg">
+
+    </div>
+
+    <div id="selectores">
+        <h2>Selector universal</h2>
+        <h3>
+            Sintaxis: <p> * { atributo:valor; }</p>
+            <br>
+            Ejemplo: <p>* { color: grey; }/* El estilo se aplicará a todos los elementos de la página*/</p>
+        </h3>
+        </div>
+        <div id="selectores">
+            <h2>Selector etiqueta</h2>
+            <h3>
+                Sintaxis: <p> etiqueta { atributo:valor; }</p>
+                <br>
+                Ejemplo: <p> p { color: green; } /* El estilo se aplicará a todos los elementos p .*/</p>
+            </h3>
+        </div>
+        
+        <hr>
+        <div id="selectores">
+            <h2>Selector clase</h2>
+            <h3>
+                Sintaxis: <p> .clase { atributo:valor; }</p>
+                <br>
+                Ejemplo: <p> .blend { color: red; } /* El estilo se aplicará a cualquier elemento que tenga la clase .blend */</p>
+            </h3>
+        </div>
+        
+        <hr>
+        <div id="selectores">
+            <h2>Selector identificador</h2>
+            <p>
+                El selector identificador utiliza el atributo id para seleccionar un elemento. <br>
+                Solo puede haber un elemento con un id dado en un documento.
+            </p>
+            <h3>
+                Sintaxis: <p> #id { atributo:valor; }</p>
+                <br>
+                Ejemplo: <p> #cent  { color: blue; } /* El estilo se aplicará al elemento que tenga el id #cent */ </p>
+            </h3>
+        </div>
+        
+        <hr>
+        <div id="selectores">
+            <h2>Selector descendiente</h2>
+            <p>
+                Un elemento es descendiente de otro cuando se encuentra entre las etiquetas de apertura y de cierre del elemento padre.
+            </p>
+            <h3>
+                Sintaxis: <p> Selector1 selector2 selectorN {atributo: valor;} /* El estilo se aplica sobre el selector N */ </p>
+                <br>
+                Ejemplo: <p> div p { color: black;} /* El estilo se aplica a todos los párrafos que se encuentren dentro de una etiqueta div */ </p>
+            </h3>
+        </div>
+        
+        <hr>
+        <div id="selectores">
+            <h2>Combinación de Selectores</h2>
+            <p>
+                La combinación de selectores nos permite dar un estilo a todos los selectores indicados.
+            </p>
+            <h3>
+                Sintaxis: <p> selector1, selector2, selector3{atributo: valor;} /* El estilo se aplica sobre los selectores indicados */ </p>
+                <br>
+                Ejemplo: <p> div, p { color: orange;} /* El estilo se aplica a todos los divs y párrafos */ </p>
+            </h3>
+        </div>
+        
+        <hr>
+        <div id="selectores">
+            <h2>Selector de Hijos</h2>
+            <p>
+                Se usa para seleccionar un elemento que es <i>hijo</i> de otro elemento.
+            </p>
+            <h3>
+                Sintaxis: <p> selector1 > selector2 {atributo: valor;}  /* El estilo se aplica sobre el selector 2 */ </p>
+                <br>
+                Ejemplo: <p> div > p { color: white;} /* El estilo se aplica a todos los párrafos que sean hijos de un div */ </p>
+            </h3>
+        </div>
+        
+        <hr>
+        <div id="selectores">
+            <h2>Selector Adyacente</h2>
+            <p>
+                selector1 + selector2{ atributo: valor; } /* El estilo se aplica al selector 2 */
+            </p>
+            <h3>
+                Sintaxis: <p> selector1 > selector2 {atributo: valor;}  /* El estilo se aplica sobre el selector 2 */ </p>
+                <br>
+                Ejemplo: <p> div + p { color: black;} /* El estilo se aplica a todos los párrafos que sean hermanos de un div */ </p>
+            </h3>
+        </div>
+        
+    
+
+</body>
+</html>

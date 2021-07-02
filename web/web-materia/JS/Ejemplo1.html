@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf=8" />
+    <title>fecha y hora con javascript</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Silva Hernandez noe jasiel" />
+    <meta
+      name="description"
+      content="ejercicio de javascript de lado del cliente"
+    />
+    <style type="text/css">
+      p {
+        text-align: justify; //Alineacion Justificada
+        /*color:#AB1C64; */
+      }
+      h1 {
+        text-align: center;
+        color: blue;
+        text-decoration: underline overline dotted red; //Linea punteada arriba y abajo
+      }
+      h2 {
+        text-align: center;
+        color: #279b94;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>JavaScript de lado del cliente</h1>
+    <h2>Fecha y hora de su computadora</h2>
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML = Date()"
+    >
+      Haga click para mostrar la fecha y la hora con JavaScript
+    </button>
+    <p id="demo"></p>
+  </body>
+</html>

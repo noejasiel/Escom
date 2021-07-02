@@ -1,0 +1,36 @@
+<!DOCTYPE html> 
+<html lang="es"> 
+	<head> <!--etiqueta de estructura básica encabezado del html-->
+		<title>imagen mapeada en html5</title> 
+        	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="author" content="Gabriela López Ruiz">
+		<meta name="description" content="imagen mapeada en html">
+  		<meta name="keywords" content="HTML, img, map">
+		<meta name="copyright" content="© 2020 GABYDLIB">
+	</head>
+
+	<body align="center"> <!--etiqueta de estructura básica cuerpo del html-->
+		<br>
+		<h1>Los elementos del mapa y el área</h1> <!--o también se puede poner así <h1 align="center"> -->
+		<p>Haga clic en la computadora, el teléfono o la taza de café para 
+		   ir a una nueva página y leer más sobre el tema:</p>
+		<img src="lugardetrabajo.jpg" alt="Lugar de trabajo" usemap="#lugardetrabajo" width="400" height="379">
+		<map name="lugardetrabajo">
+  			<area shape="rect" coords="34,44,270,350" alt="Computadora" href="computadora.html">
+  			<area shape="rect" coords="290,172,333,250" alt="telefono" href="telefono.html">
+  			<area shape="circle" coords="337,300,44" alt="taza de cafe" href="tazadecafe.html">
+		</map>
+		<p>Definición y uso</p>
+		<br>
+		<p>El atributo usemap especifica una imagen como un 
+		   <br>mapa de imagen del lado del cliente &#40;un mapa de imagen es una imagen 
+		   <br>con áreas en las que se puede hacer clic&#41;.
+		   <br>
+		   El atributo usemap está asociado con el atributo de nombre de un elemento 
+		   <br>&lt;map&gt; y crea una relación entre &lt;img&gt; y &lt;map&gt;.
+		   <br><br>
+		   Nota: El atributo usemap no se puede utilizar si el elemento &lt;img&gt; es descendiente 
+		   <br>de un elemento &lt;a&gt; o &lt;button&gt;.
+		</p>
+	</body>
+</html>

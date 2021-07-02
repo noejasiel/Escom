@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Noe Jasiel" />
+    <meta name="description" content="Inputs" />
+    <meta name="keywords" content="HTML" />
+    <meta name="copyright" content="Silva Hernandez" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>inputs calendario</h1>
+    <form action="">
+      <input type="checkbox" name="dep favorito" value="buceo" />buceo
+      <input
+        type="checkbox"
+        name="dep favorito"
+        value="paracaidismo"
+      />paracaidas
+      <input type="checkbox" name="dep favorito" value="motos" />motos
+    </form>
+    <form
+      action="./action_page.php"
+      id="numform"
+      oninput="x.value=parseInt(a.value)+parseInt(b.value)"
+    >
+      <input type="range" id="a" name="a" value="50" />+<input
+        type="number"
+        id="b"
+        name="b"
+        value="25"
+      />
+      <br /><br />
+      <input type="submit" />
+    </form>
+    <p>
+      el elementpo de salida a continuacion fuera del form pero sigue siendo
+      parte de el
+    </p>
+    <output form="numform" id="x" name="x" for="a+b"></output>
+    <p>
+      <strong>nota</strong>
+      el atributo de formulario no se admite en ninguno de los principales
+      navegadoresS
+    </p>
+  </body>
+</html>

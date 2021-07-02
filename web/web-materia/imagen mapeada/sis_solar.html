@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Gabriela López Ruiz" />
+    <meta name="description" content="imagen mapeada en html" />
+    <meta name="keywords" content="HTML, img, map" />
+    <meta name="copyright" content="© Noe Jasiel" />
+    <title>Sistema Solar</title>
+  </head>
+  <body>
+    <br />
+    <h1>Los elementos del mapa y el área</h1>
+    <!--o también se puede poner así <h1 align="center"> -->
+    <p>Haga clic en cualquier planeta pasa saber mas</p>
+    <img
+      src="Planetas-portadaweb-1.jpg"
+      alt="Lugar de trabajo"
+      usemap="#lugardetrabajo"
+      width="745"
+      height="483"
+    />
+    <map name="lugardetrabajo">
+      <area
+        shape="circle"
+        coords="432, 270, 73"
+        alt="Computadora"
+        href="jupiter.html"
+      />
+      <area
+        shape="circle"
+        coords="223, 94, 29"
+        alt="Computadora"
+        href="marte.html"
+      />
+      <area
+        shape="circle"
+        coords="101, 214, 17.2"
+        alt="Computadora"
+        href="mercurio.html"
+      />
+      <area
+        shape="circle"
+        coords="471, 88, 43"
+        alt="Computadora"
+        href="saturno.html"
+      />
+      <area
+        shape="poly"
+        coords="511, 58, 522,60, 540,109, 553, 62, 579, 98, 510,108, 513,103, 430,117, 428,172, 413,174, 383,104, 400,92, 418,77"
+        alt="Computadora"
+        href="saturno.html"
+      />
+      <area
+        shape="circle"
+        coords="158, 305, 35.5"
+        alt="Computadora"
+        href="venus.html"
+      />
+      <area
+        shape="circle"
+        coords="259, 244, 38.9"
+        alt="Computadora"
+        href="tierra.html"
+      />
+      <area
+        shape="circle"
+        coords="708, 31, 12"
+        alt="Computadora"
+        href="pluton.html"
+      />
+      <area
+        shape="circle"
+        coords="691, 223, 37"
+        alt="Computadora"
+        href="neptuno.html"
+      />
+      <area
+        shape="circle"
+        coords="573, 390, 43.8"
+        alt="Computadora"
+        href="urano.html"
+      />
+      <area
+        shape="poly"
+        coords="622, 401, 634, 410, 623,418, 536, 363, 510,360, 513,371, 530,380"
+        alt="Computadora"
+        href="saturno.html"
+      />
+    </map>
+    <p>Definición y uso</p>
+    <br />
+    <p>
+      El atributo usemap especifica una imagen como un <br />mapa de imagen del
+      lado del cliente &#40;un mapa de imagen es una imagen <br />con áreas en
+      las que se puede hacer clic&#41;.
+      <br />
+      El atributo usemap está asociado con el atributo de nombre de un elemento
+      <br />&lt;map&gt; y crea una relación entre &lt;img&gt; y &lt;map&gt;.
+      <br /><br />
+      Nota: El atributo usemap no se puede utilizar si el elemento &lt;img&gt;
+      es descendiente
+      <br />de un elemento &lt;a&gt; o &lt;button&gt;.
+    </p>
+  </body>
+</html>

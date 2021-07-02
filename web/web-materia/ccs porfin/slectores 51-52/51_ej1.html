@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <meta name="description" content="selectores" />
+    <meta name="Noe jasiel silva" />
+    <style>
+      input:out-of-range {
+        border: 6px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="" id="form1">
+      <ul>
+        Los valores entre 1 y 10 son válidos.
+        <li>
+          <input
+            type="number"
+            placeholder="1 a 10"
+            min="1"
+            max="10"
+            value="12"
+          />
+          <label for="value1">Tu valor esta fuera de rango</label>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>

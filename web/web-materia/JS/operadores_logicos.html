@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Operadores Logicos</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf=8" />
+    <meta charset="utf-8" />
+    <meta name="author" content="Silva Hernandez noe jasiel" />
+    <script type="text/javascript">
+      function mostrarMensaje1() {
+        var a, b, c, d, eTexto;
+        a = 3;
+        b = 5;
+        c == true;
+        d = false;
+        eTexto = "1";
+        alert(
+          "Valor de verdad para a+b == 8 && a-b==1 es " +
+            (a + b == 8 && a - b == 1)
+        );
+        alert(
+          "Valor de verdad para a+b == 8 && a-b==-2 es " +
+            (a + b == 8 && a - b == -2)
+        );
+        alert("Valor de verdad para c == d es: " + (c == d));
+        alert("Valor de verdad para c&&d es: " + (c && d));
+        alert("Valor de verdad para c||d es: " + (c || d));
+        alert("Valor de verdad para !a es: " + !a);
+        alert("Valor de verdad para eTexto === 1: " + (eTexto === 1));
+        alert("Valor de verdad para eTexto ==1: " + (eTexto == 1));
+        alert(
+          "Valor de verdad para Zapato < avellano es: " +
+            ("Zapato" < "avellano")
+        );
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <p>
+        Aqui un parrafo de texto situado antes de la imagen, dentro de un div
+        contenedor
+      </p>
+      <img
+        onclick="mostrarMensaje1()"
+        src="http://i.imgur.com/afC0L.jpg"
+        alt="Notepad++"
+        title="Notepad++,un util editor de texto"
+      />
+      <p
+        onclick="alert('Alejarta javascript')"
+        style="background-color: yellow"
+      >
+        Aqui otro parrafo de texto. JavaScript es un lenguaje utilizado para
+        dotar de efectos dinamicos a las paginas web.
+      </p>
+    </div>
+  </body>
+</html>

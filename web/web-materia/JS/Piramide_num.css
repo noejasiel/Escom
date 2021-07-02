@@ -1,0 +1,23 @@
+body{
+	background-color: #b0e0e6;
+}
+
+form{
+	margin-top: 10%;
+	margin-left: 30%;
+}
+
+#piramide{
+	margin-left: 50%;
+	color: #8b4513;
+}
+
+#boton{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;	
+}
+
+#correo, #resultado{
+	color: #8b4513;
+}

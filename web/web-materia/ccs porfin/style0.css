@@ -1,0 +1,14 @@
+.a {
+  width: 250px;
+  height: 75px;
+  background-color: red;
+  border: 1px solid black;
+}
+.b {
+  position: relative;
+  width: 250px;
+  height: 75px;
+  background-color: red;
+  border: 5px solid black;
+  margin: 1em;
+}
